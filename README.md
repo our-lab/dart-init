@@ -9,12 +9,13 @@ Ongoing Todo:
 - [ ] Basic [dart syntax](https://dart.dev/samples), only need skimming to check out unknown syntax.
 
 Additional/Misc:
-noSuchMethod override
-- [ ] [extension methods](https://dart.dev/guides/language/extension-methods)
-- [ ] [Async programming with Stream](https://dart.dev/tutorials/language/streams)
-- [ ] [Json handling](https://dart.dev/guides/json)
+- [ ] noSuchMethod override
 - [ ] Chaining method calls;  a..b = true..c = 5;  Cascade used for chaining access to methods and other members. Equivalent: a.b = true; a.c = 5
 - [ ] Learn casting techniques in Dart.
+- [ ] [extension methods](https://dart.dev/guides/language/extension-methods)
+- [x] [Async programming with Stream](https://dart.dev/tutorials/language/streams)
+- [ ] [Json handling](https://dart.dev/guides/json)
+
 - [ ] [understanding streams controller](https://dart.dev/articles/libraries/creating-streams)
 
 ---
@@ -51,4 +52,19 @@ noSuchMethod override
 
 ---
 #### TODO:
+
+
+- [ ] noSuchMethod override[read spec to understand better](https://github.com/dart-lang/sdk/blob/master/docs/language/informal/nosuchmethod-forwarding.md)
+````
+class A {
+  // Unless you override noSuchMethod, using a
+  // non-existent member results in a NoSuchMethodError.
+  @override
+  void noSuchMethod(Invocation invocation) {
+    print('You tried to use a non-existent member: ' +
+        '${invocation.memberName}');
+  }
+}
+````
+
 
