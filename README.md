@@ -4,28 +4,16 @@
 
 ######  I think maybe fastest way to have overlook on Dart would be this [codelab overview page](https://dart.dev/codelabs)
 
-
+Ongoing Todo:
 ---
-- [x] [Dart Cheet Sheet](https://dart.dev/codelabs/dart-cheatsheet)
-- [x] Read [Dart type system](https://dart.dev/guides/language/type-system) to understanding use of generics in dart
-- [x] **Important** nice cheetshet to remember [important syntax](https://dart.dev/guides/language/cheatsheet)
-- [x] [Iteratable Collections](https://dart.dev/codelabs/iterables)
-- [x] [asnc programming](https://dart.dev/codelabs/async-await)
-- [x] Understanding Null safety constructs in practice. Use [Null safety codelab](https://dart.dev/codelabs/null-safety)
 - [ ] Basic [dart syntax](https://dart.dev/samples), only need skimming to check out unknown syntax.
 - [ ] [language tour for finish up and reference](https://dart.dev/guides/language/language-tour)
 
-Misc:
-Streams and async for
-[Mixin](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
+Additional/Misc:
 noSuchMethod override
-[extension methods](https://dart.dev/guides/language/extension-methods)
-
+- [ ] [extension methods](https://dart.dev/guides/language/extension-methods)
 - [ ] [Async programming with Stream](https://dart.dev/tutorials/language/streams)
 - [ ] [Json handling](https://dart.dev/guides/json)
-
-
-
 
 
 ---
@@ -45,10 +33,16 @@ noSuchMethod override
 
 
 ## Done:
-
--[x] [Null safety at high level](https://dart.dev/null-safety)
--[x] God place to understand features provided in [DART in each version](https://dart.dev/guides/language/evolution)
--[x] [Don' commit dart files](https://dart.dev/guides/libraries/private-files)
+- [x] [Dart Cheet Sheet](https://dart.dev/codelabs/dart-cheatsheet)
+- [x] Read [Dart type system](https://dart.dev/guides/language/type-system) to understanding use of generics in dart
+- [x] **Important** nice cheetshet to remember [important syntax](https://dart.dev/guides/language/cheatsheet)
+- [x] [Iteratable Collections](https://dart.dev/codelabs/iterables)
+- [x] [asnc programming](https://dart.dev/codelabs/async-await)
+- [x] Understanding Null safety constructs in practice. Use [Null safety codelab](https://dart.dev/codelabs/null-safety)
+- [x] [Mixin](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
+- [x] [Null safety at high level](https://dart.dev/null-safety)
+- [x] God place to understand features provided in [DART in each version](https://dart.dev/guides/language/evolution)
+- [x] [Don' commit dart files](https://dart.dev/guides/libraries/private-files)
 
 ### Important commands:
 *Command To Format dart code:* `dart format bin lib test`
