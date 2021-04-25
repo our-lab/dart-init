@@ -72,3 +72,17 @@ void tryFunction(VoidFunction untrustworthy, Logger logger) {
     logger.doneLogging();
   }
 }
+
+///noSuchMethod()
+/// To detect or react whenever code attempts to use a non-existent method or
+/// instance variable, you can override noSuchMethod():
+
+class A {
+  // Unless you override noSuchMethod, using a
+  // non-existent member results in a NoSuchMethodError.
+  @override
+  void noSuchMethod(Invocation invocation) {
+    print('You tried to use a non-existent member: ' +
+        '${invocation.memberName}');
+  }
+}

@@ -59,3 +59,16 @@ void countSeconds(int s) {
     Future.delayed(Duration(seconds: i), () => print(i));
   }
 }
+
+
+// Future main() async {
+//   await for (var request in requestServer) {
+//     handleRequest(request);
+//   }
+// }
+// Future<void> someAsyncMethod() async {
+//   var mustBeSomeStream = [1,2,3];
+//   await for (var i in mustBeSomeStream) {
+// // Executes each time the stream emits mustBeSomeStream value.
+//   }
+// }

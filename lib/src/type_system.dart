@@ -59,3 +59,16 @@ class Cat extends Animal {
 /// https://dart.dev/guides/language/type-system#type-inference
 /// https://dart.dev/guides/language/sound-problems#the-covariant-keyword
 ///https://dart.dev/guides/language/language-tour
+
+
+// Use of Generics
+
+T first<T>(List<T> ts) {
+  // Do some initial work or error checking, then...
+  T tmp = ts[0];
+  // Do some additional checking or processing...
+  return tmp;
+}
+
+
+
