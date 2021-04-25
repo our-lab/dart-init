@@ -7,14 +7,15 @@
 Ongoing Todo:
 ---
 - [ ] Basic [dart syntax](https://dart.dev/samples), only need skimming to check out unknown syntax.
-- [ ] [language tour for finish up and reference](https://dart.dev/guides/language/language-tour)
 
 Additional/Misc:
 noSuchMethod override
 - [ ] [extension methods](https://dart.dev/guides/language/extension-methods)
 - [ ] [Async programming with Stream](https://dart.dev/tutorials/language/streams)
 - [ ] [Json handling](https://dart.dev/guides/json)
-
+- [ ] Chaining method calls;  a..b = true..c = 5;  Cascade used for chaining access to methods and other members. Equivalent: a.b = true; a.c = 5
+- [ ] Learn casting techniques in Dart.
+- [ ] [understanding streams controller](https://dart.dev/articles/libraries/creating-streams)
 
 ---
 
@@ -44,12 +45,10 @@ noSuchMethod override
 - [x] God place to understand features provided in [DART in each version](https://dart.dev/guides/language/evolution)
 - [x] [Don' commit dart files](https://dart.dev/guides/libraries/private-files)
 
-### Important commands:
+### Important:
 *Command To Format dart code:* `dart format bin lib test`
-
+- [ ] [language tour for finish up and reference](https://dart.dev/guides/language/language-tour)
 
 ---
 #### TODO:
-1. Chaining method calls;  a..b = true..c = 5;  Cascade used for chaining access to methods and other members. Equivalent: a.b = true; a.c = 5
-2. Learn casting techniques in Dart.
-3.
+
